@@ -1,0 +1,3 @@
+auto - car
+hattu - hat
+hiiri - mouse
