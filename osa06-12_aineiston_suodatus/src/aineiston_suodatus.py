@@ -1,23 +1,24 @@
 def suodata_laskut():
-    with open("oikeat.csv", "w") as korrektit:
-        with open("vaarat.csv", "w") as epakorrektit:
-            with open("laskut.csv") as tiedosto:
-                for rivi in tiedosto:
-                    osat=rivi.split(";")
-                    lasku=osat[1]
-                    tulos=osat[2]
-                    if "-" in lasku:
-                        alkio=lasku.split("-")
-                        eka=int(alkio[0])
-                        toka=int(alkio[1])
-                    elif "+" in lasku:
-                        alkio=lasku.split("+")
-                        eka=int(alkio[0])
-                        toka=int(alkio[1])
-                    if eka-toka == int(tulos) or eka+toka == int(tulos):
-                        korrektit.write(rivi)
-                    elif lasku != int(tulos):
-                        epakorrektit.write(rivi)
+    #avataan kaikki tiedostot 
+    with open("laskut.csv") as lahde, open("oikeat.csv", "w") as oikeat, open("vaarat.csv", "w") as vaarat:
+        for rivi in lahde:
+
+            palat = rivi.split(";")
+            lasku = palat[1] 
+            tulos = palat[2]
+            #pluslasku vai miinuslasku oikein(True or False) riippuu tuloksesta
+            if "+" in lasku:
+                operandit = lasku.split("+")
+                oikein = int(operandit[0]) + int(operandit[1]) == int(tulos) 
+            else:
+                operandit = lasku.split("-")
+                oikein = int(operandit[0]) - int(operandit[1]) == int(tulos)
+
+            #kirjoitetaan oikeat ja väärät
+            if oikein:
+                oikeat.write(rivi)
+            else:
+                vaarat.write(rivi)
 
 # tee ratkaisu tänne 
 if __name__ == "__main__":

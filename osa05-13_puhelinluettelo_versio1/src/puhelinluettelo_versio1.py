@@ -1,22 +1,26 @@
-luettelo = {}
-while True:
+def hae_henkilo(henkilot):
+    nimi = input("nimi: ")
+    if nimi in henkilot:
+        print(henkilot[nimi])
+    else:
+        print("ei numeroa")
 
-    komento = int(input("komento (1 hae, 2 lisää, 3 lopeta): "))
+def lisaa_henkilo(henkilot):
+    nimi = input("nimi: ")
+    numero = input("numero: ")
+    henkilot[nimi] = numero
+    print("ok!")
 
-    if komento == 1:
-        nimi = input("nimi: ")
-        if nimi in luettelo.keys():
-             print(luettelo[nimi])
-        else:
-            print("ei numeroa")
+def main():
+    henkilot = {}
+    while True:
+        komento = input("komento (1 hae, 2 lisää, 3 lopeta): ")
+        if komento == "1":
+            hae_henkilo(henkilot)
+        if komento == "2":
+            lisaa_henkilo(henkilot)
+        if komento == "3":
+            break
+    print("lopetetaan...")
 
-    if komento == 2:
-        nimi = input("nimi: ")
-        puhelinnumero = input("numero: ")
-        luettelo[nimi] = puhelinnumero
-        print('ok!')
-    
-    if komento == 3:
-        break
-
-print('lopetetaan...')
+main()

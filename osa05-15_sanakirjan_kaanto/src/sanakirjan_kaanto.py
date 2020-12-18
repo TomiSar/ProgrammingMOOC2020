@@ -1,20 +1,14 @@
 def kaanna(sanakirja: dict):
-    avaimet = []
-    arvot = []
+    kopio = {}
+    for avain in sanakirja:         
+        kopio[avain] = sanakirja[avain] #kopio alkuperäisestä sanakirjasta
+    for avain in kopio:
+        del sanakirja[avain]            #tyhjennetään alkuperäinen
+    for avain in kopio:
+        sanakirja[kopio[avain]] = avain #kopioidaan avain:arvo alkupeäisen kopioon
 
-    for avain in sanakirja:
-        avaimet.append(sanakirja[avain]) #avaimet
-        arvot.append(avain)              #arvot
-    
-    sanakirja.clear()
-
-    i = 0
-    for avain in avaimet:
-        sanakirja[avain] = arvot[i]
-        i += 1
-
+#main
 if __name__ == "__main__":
-    #s = { 1: 10, 2: 20, 3: 30 }
-    s = {1: "eka", 2: "toka", 3: "kolmas", 4: "neljas"}
-    kaanna(s)
-    print(s)
+    sanakirja = {1: "eka", 2: "toka", 3: "kolmas", 4: "neljas", 5: "viides"}
+    kaanna(sanakirja)
+    print(sanakirja)
