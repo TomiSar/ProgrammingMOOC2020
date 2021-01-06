@@ -1,4 +1,3 @@
-# Kirjoita ratkaisu tähän
 lause = input("Anna lause: ")
 # Lisätään alkuun välilyönti, jotta lauseen käsittely helpottuu
 lause = " " + lause

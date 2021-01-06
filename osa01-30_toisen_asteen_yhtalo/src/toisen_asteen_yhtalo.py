@@ -1,4 +1,3 @@
-# Kirjoita ratkaisu tähän
 # Otetaan käyttöön neliöjuuri math-moduulista
 from math import sqrt
 a = int(input("Anna a: "))

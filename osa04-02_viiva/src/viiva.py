@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 def viiva(leveys: int, merkkijono: str):
     if merkkijono == "":
         merkkijono = "*"

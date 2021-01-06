@@ -1,4 +1,3 @@
-# Kirjoita ratkaisu tähän
 asti = int(input("Mihin asti?" ))
 kerroin = int(input("Mikä kerroin?" ))
 luku = 1

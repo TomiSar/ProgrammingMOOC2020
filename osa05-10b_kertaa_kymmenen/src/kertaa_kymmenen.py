@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 def kertaa_kymmenen(alku, loppu):
     sanakirja = {}
     while alku <= loppu:

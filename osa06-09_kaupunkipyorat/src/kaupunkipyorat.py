@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 import math
  
 def hae_asematiedot(asema_tiedosto:str):
@@ -36,7 +35,7 @@ def suurin_etaisyys(asemat: dict):
  
     return asema1, asema2, pisin
 
-
+#main
 if __name__ == "__main__":
     asemat = hae_asematiedot('stations1.csv')
     e = etaisyys(asemat, "Designmuseo", "Hietalahdentori")

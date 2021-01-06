@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 def tulosta(sudoku: list):
     r = 0
     for rivi in sudoku:
@@ -8,7 +7,7 @@ def tulosta(sudoku: list):
             if merkki == 0:
                 merkki = "_"
             m = f"{merkki} "
-            if s%3 == 0 and s < 8:
+            if s % 3 == 0 and s < 8:
                 m += " "
             print(m, end="")
  
@@ -20,6 +19,7 @@ def tulosta(sudoku: list):
 def lisays(sudoku: list, rivi: int, sarake: int, luku: int):
     sudoku[rivi][sarake] = luku
 
+#main
 if __name__ == "__main__":
     sudoku  = [
     [0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -41,8 +41,4 @@ if __name__ == "__main__":
     print()
     tulosta(sudoku)
     print()
-
-# miten saan sinne välit 
-# esim laittamalla mukaan laskurimuuttujat, jotka muistaa kuinka mones sareake/rivi tulostettiin
-#sinne sopivat ifit sekaan, jotka kattoo tuleeko tulostaa ekstraväli/rivi
 

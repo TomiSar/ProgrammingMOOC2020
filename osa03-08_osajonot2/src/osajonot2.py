@@ -1,4 +1,3 @@
-# Kirjoita ratkaisu tähän
 mjono = input("Anna merkkijono: ")
 pituus = len(mjono) -1
 

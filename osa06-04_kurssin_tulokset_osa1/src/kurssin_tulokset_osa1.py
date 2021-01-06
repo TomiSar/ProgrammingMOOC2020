@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 # Opiskelijatiedot: opiskelijat1.csv
 # Tehtävätiedot: tehtavat1.csv
 # pekka peloton 21

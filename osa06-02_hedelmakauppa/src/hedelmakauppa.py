@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 def lue_hedelmat():
     sanakirja = {}
     with open("hedelmat.csv") as tiedosto:
@@ -10,6 +9,7 @@ def lue_hedelmat():
     
     return sanakirja
 
+#main
 if __name__ == "__main__":
     sanakirja = lue_hedelmat()
     print(sanakirja)

@@ -1,4 +1,3 @@
-# Kirjoita ratkaisu tähän
 luku1 = int(input("Anna ensimmäinen luku: "))
 luku2 = int(input("Anna toinen luku: "))
 if luku1 > luku2:

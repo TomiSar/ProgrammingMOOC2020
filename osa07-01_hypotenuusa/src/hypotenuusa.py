@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 from math import *
 
 def hypotenuusa(kateetti1: float, kateetti2: float):

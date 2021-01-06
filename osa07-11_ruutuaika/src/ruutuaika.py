@@ -1,4 +1,3 @@
-# tee ratkaisu tänne,
 from datetime import datetime, timedelta
  
 def ruutuaika():
@@ -43,7 +42,6 @@ def ruutuaika():
  
     print(f'Tiedot tallennettu tiedostoon {tuloste_tiedosto}')
  
-
-
+#main
 if __name__ == "__main__":
     ruutuaika()

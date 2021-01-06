@@ -1,4 +1,3 @@
-# Kirjoita ratkaisu tähän
 lista = []
 luvut = int(input("Kuinka monta lukua: "))
 i = 1

@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 def palindromi(sana):
     kaannetty = ''
     pituus = len(sana) - 1

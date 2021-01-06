@@ -1,5 +1,5 @@
-# tee ratkaisu tänne
 from random import sample
+
 def sanat(n: int, alku: str):
     lista = []
     sanalista = ""

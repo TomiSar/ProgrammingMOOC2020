@@ -1,4 +1,3 @@
-# Korjaa ohjelma
 print("Valmiina?")
 luku = int(input("Anna luku: "))
 

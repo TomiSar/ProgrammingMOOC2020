@@ -1,4 +1,3 @@
-# Kirjoita ratkaisu tähän
 while True:
     luku = int(input("Anna luku: "))
     if luku <= 0:

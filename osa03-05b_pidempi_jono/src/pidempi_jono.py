@@ -1,5 +1,3 @@
-# Kirjoita ratkaisu tähän
-# Kirjoita ratkaisu tähän
 mjono1 = input("Anna jono 1: ")
 mjono2 = input("Anna jono 2: ")
 if len(mjono1) > len(mjono2):

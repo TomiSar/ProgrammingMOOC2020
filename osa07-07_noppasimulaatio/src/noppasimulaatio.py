@@ -1,5 +1,5 @@
-# tee ratkaisu tänne
 from random import sample
+
 def heita(noppa: str):
     nopat = {
         "A": [3, 3, 3, 3, 3, 6],

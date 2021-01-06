@@ -1,5 +1,5 @@
 from datetime import datetime, timedelta
-# tee ratkaisu tänne
+
 paiva = int(input("Päivä: "))
 kuukausi = int(input("Kuukausi: "))
 vuosi = int(input("Vuosi: "))

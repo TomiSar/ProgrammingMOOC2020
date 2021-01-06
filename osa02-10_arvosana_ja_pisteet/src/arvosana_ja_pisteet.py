@@ -1,4 +1,3 @@
-# Kirjoita ratkaisu tähän
 pisteet = int(input("Anna pisteet [0-100]: "))
 if pisteet < 0 or pisteet > 100:
     arvosana = "mahdotonta!"

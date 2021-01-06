@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 import urllib.request
 import json
 

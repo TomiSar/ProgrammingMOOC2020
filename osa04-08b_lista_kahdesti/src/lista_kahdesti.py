@@ -1,7 +1,4 @@
-# Kirjoita ratkaisu tähän
-# Kirjoita ratkaisu tähän
 lista = []
-
 while True:
     luku = int(input("Anna luku: "))
     if luku == 0:

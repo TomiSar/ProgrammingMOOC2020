@@ -1,5 +1,5 @@
 from fractions import Fraction
-# tee ratkaisu tänne
+
 def jaa_palasiksi(maara: int):
     i = 0
     lista = []

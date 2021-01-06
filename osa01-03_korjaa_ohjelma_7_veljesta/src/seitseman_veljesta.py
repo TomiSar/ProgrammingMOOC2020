@@ -1,4 +1,3 @@
-# Korjaa ohjelma
 print("Aapo")
 print("Eero")
 print("Juhani")

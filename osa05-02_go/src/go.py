@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 def kumpi_voitti(pelilauta: list):
     pelaaja1 = 0
     pelaaja2 = 0

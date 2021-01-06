@@ -1,4 +1,3 @@
-# Kirjoita ratkaisu tähän
 sana = input("Anna sana: ")
 
 if sana[1] == sana[len(sana)-2]:

@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 def positiivisten_summa(lista):
     positiivisetsumma = 0
     for alkio in lista:

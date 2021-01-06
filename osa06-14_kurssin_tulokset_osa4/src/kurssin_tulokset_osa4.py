@@ -1,5 +1,3 @@
-# tee ratkaisu tänne
-# tee ratkaisu tänne
 #pohjana malliratkaisu kurssi_tulokset_osa3
 #Laajennetaan vielä hieman aiemmin kurssien tulokset generoivaa sovellusta. Tällä hetkellä tiedostosta luetaan opiskelijoiden nimet, tehtäväpisteet sekä koepisteet. Laajennetaan ohjelmaa siten, että myös kurssin nimi ja laajuus luetaan tiedostosta
 #Ohjelma luo kaksi tiedostoa tulos.txt (samanlainen kuin tehtävän edellisen osan tulostus) ja tulos.csv

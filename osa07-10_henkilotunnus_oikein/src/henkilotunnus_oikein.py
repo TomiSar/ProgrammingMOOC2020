@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 from datetime import datetime
 def onko_validi(hetu: str):
     if len(hetu) != 11:

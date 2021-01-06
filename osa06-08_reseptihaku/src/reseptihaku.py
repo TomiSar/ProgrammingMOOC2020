@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 def hae_nimi(reseptiikka, sana):
     reseptit = []
     nimet = []
@@ -44,8 +43,7 @@ def hae_raakaaine(reseptiikka, aine):
                 aineet.append((f"{resepti[0]}, valmistusaika {resepti[1]} min"))
     return aineet
 
-
-
+#main
 if __name__ == "__main__":
     loydetyt = hae_raakaaine("reseptit1.txt", "maito")
     for resepti in loydetyt:

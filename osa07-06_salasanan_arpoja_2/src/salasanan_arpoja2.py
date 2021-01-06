@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 from random import choice, randint
 from string import ascii_lowercase, digits
 

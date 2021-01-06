@@ -1,4 +1,3 @@
-# Kirjoita ratkaisu tähän
 lista = []
 i = 1
 

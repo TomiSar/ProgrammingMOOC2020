@@ -1,4 +1,3 @@
-# Kirjoita ratkaisu tähän'
 lista = [1, 2, 3, 4, 5]
 while True:
     indeksi = int(input("Anna indeksi: "))

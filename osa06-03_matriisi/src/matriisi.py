@@ -1,65 +1,40 @@
-# tee ratkaisu tänne
-def summa():
+def lue_matriisi():
     with open("matriisi.txt") as tiedosto:
-        tulos=int()
-        lista=[]
+        m = []
         for rivi in tiedosto:
-            rivi = rivi.replace("\n", "")
-            rivi = rivi.split(",")
-            lista.append(rivi)
-        for i in lista:
-            for j in i:
-                tulos+=int(j)
-        return tulos
-#summa()
+            mrivi = []
+            alkiot = rivi.split(",")
+            for alkio in alkiot:
+                mrivi.append(int(alkio))
+            m.append(mrivi)
+ 
+    return m
+ 
+# Yhdistää matriisin rivit yhdeksi listaksi
+def yhdista(matriisi: list):
+    lista = []
+    for rivi in matriisi:
+        lista += rivi
+    return lista
+ 
+def summa():
+    lista = yhdista(lue_matriisi())
+    return sum(lista)
  
 def maksimi():
-    with open("matriisi.txt") as tiedosto:
-        tulos=int()
-        lista=[]
-        for rivi in tiedosto:
-            rivi = rivi.replace("\n", "")
-            rivi = rivi.split(",")
-            lista.append(rivi)
-        for i in lista:
-            for j in i:
-                if int(j) > tulos:
-                    tulos = int(j)
-        return tulos
-#maksimi()
+    lista = yhdista(lue_matriisi())
+    return max(lista)
  
 def rivisummat():
-    with open("matriisi.txt") as tiedosto:
-        lista=[]
-        for rivi in tiedosto:
-            rivi = rivi.replace("\n", "")
-            rivi = rivi.split(",")
-            lista.append(rivi)
-        tulokset=[]
- 
-        while True:
-            count=0
-            alkio=int()
-            x=0
-            y=1
- 
-            while y <= len(lista):
-                for i in lista[x:y]:
-                    while count < len(lista):
-                        for j in i:
-                            alkio+=int(j)
-                            count+=1
-                tulokset.append(alkio)  
-                alkio=0
-                count=0        
-                x+=1
-                y+=1
-            break
-        return tulokset
-       # return tulos
-#rivisummat()
+    matriisi = lue_matriisi()
+    summat = []
+    for rivi in matriisi:
+        summat.append(sum(rivi))
+    return summat
 
+#main
 if __name__ == "__main__":
-    summa()
-    maksimi()
-    rivisummat
+    lue_matriisi()
+    print(summa())
+    print(maksimi())
+    print(rivisummat())

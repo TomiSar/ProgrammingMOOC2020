@@ -1,6 +1,5 @@
 import string
 
-# tee ratkaisu tänne
 def jaa_merkkeihin(lause):
     osat = ["","",""]
     for merkki in lause:

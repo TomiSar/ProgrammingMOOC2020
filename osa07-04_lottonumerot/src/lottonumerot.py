@@ -1,5 +1,5 @@
 from random import randint
-# tee ratkaisu tänne
+
 def lottonumerot(maara: int, alaraja: int, ylaraja: int):
     lista = []
     i = 1

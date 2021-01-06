@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 def eka_sana(lause):
     sana = lause.split( )
     return sana[0]

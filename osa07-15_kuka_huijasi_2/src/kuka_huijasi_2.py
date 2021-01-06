@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 import csv
 from datetime import datetime, timedelta
 

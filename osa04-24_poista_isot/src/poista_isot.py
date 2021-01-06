@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 def poista_isot(lista):
     uusilista = []
     for mjono in lista:

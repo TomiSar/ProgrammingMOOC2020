@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 def shakkilauta(koko):
     i = 0
     while i < koko:

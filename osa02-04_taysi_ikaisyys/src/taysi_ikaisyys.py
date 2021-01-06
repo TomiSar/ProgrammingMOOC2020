@@ -1,4 +1,3 @@
-# Kirjoita ratkaisu tähän
 taysi  = 18
 ika = int(input("Kuinka Vanha olet? "))
 if ika < taysi:

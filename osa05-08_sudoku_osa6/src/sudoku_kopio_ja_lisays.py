@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 def tulosta(sudoku: list):
     r = 0
     for rivi in sudoku:
@@ -8,7 +7,7 @@ def tulosta(sudoku: list):
             if merkki == 0:
                 merkki = "_"
             m = f"{merkki} "
-            if s%3 == 0 and s < 8:
+            if s % 3 == 0 and s < 8:
                 m += " "
             print(m, end="")
  
@@ -25,7 +24,7 @@ def kopioi_ja_lisaa(sudoku: list, rivi: int, sarake: int, luku: int):
     uusi[rivi][sarake] = luku
     return uusi
 
-
+#main
 if __name__ == "__main__":
     sudoku  = [
     [0, 0, 0, 0, 0, 0, 0, 0, 0],

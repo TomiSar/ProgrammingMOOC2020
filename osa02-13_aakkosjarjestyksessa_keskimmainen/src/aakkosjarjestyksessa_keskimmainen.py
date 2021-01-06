@@ -1,4 +1,3 @@
-# Kirjoita ratkaisu tähän
 kirjain1 = input("Anna 1. kirjain: ")
 kirjain2 = input("Anna 2. kirjain: ")
 kirjain3 = input("Anna 3. kirjain: ")

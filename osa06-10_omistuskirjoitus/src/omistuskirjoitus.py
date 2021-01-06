@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 nimi = input("Kenelle teos omistetaan: ")
 output = input("Mihin kirjoitetataan: ")
 

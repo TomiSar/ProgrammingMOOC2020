@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 def tuplaa_alkiot(luvut):
     tuplana = []
     for luku in luvut:

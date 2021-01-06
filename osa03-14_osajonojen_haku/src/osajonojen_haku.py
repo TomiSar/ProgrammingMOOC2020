@@ -1,4 +1,3 @@
-# Kirjoita ratkaisu tähän
 sana = input("Sana: ")
 merkki = input("Merkki: ")
 indeksi = 0

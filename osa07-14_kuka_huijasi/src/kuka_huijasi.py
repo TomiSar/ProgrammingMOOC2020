@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 # .csv sarakkeet tunnus;tehtävä;pisteet;hh:mm.
 import csv
 from datetime import datetime, timedelta

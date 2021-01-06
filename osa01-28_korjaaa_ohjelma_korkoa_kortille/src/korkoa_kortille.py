@@ -1,4 +1,3 @@
-# Korjaa ohjelma
 alkupisteet = int(input("Kuinka paljon pisteitä? "))
 if alkupisteet < 100:
     pisteet = 1.1 * alkupisteet

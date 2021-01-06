@@ -1,4 +1,3 @@
-# Kirjoita ratkaisu tähän
 etunimi = input("Etunimi: ")
 sukunimi = input("Sukunimi: ")
 osoite = input("Katuosoite: ")

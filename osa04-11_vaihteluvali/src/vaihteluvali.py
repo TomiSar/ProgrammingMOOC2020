@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 def vaihteluvali(lista):
     return max(lista) - min(lista)
 

@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 teksti = input("Write text: ")
  
 with open("wordlist.txt") as tiedosto:

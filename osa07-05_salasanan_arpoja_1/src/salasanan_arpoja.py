@@ -1,7 +1,6 @@
 import random
 import string
 
-# tee ratkaisu tänne
 def luo_salasana(pituus: int):
     merkit = string.ascii_lowercase
     salasana = ''.join(random.choice(merkit) for i in range(pituus))

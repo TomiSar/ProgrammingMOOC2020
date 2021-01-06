@@ -1,4 +1,3 @@
-# Kirjoita ratkaisu tähän
 opiskelijat = int(input("Montako opiskelijaa? "))
 ryhmakoko = int(input("Ryhmän koko? "))
 

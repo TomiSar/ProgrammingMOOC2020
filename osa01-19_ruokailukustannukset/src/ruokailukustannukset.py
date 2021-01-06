@@ -1,4 +1,3 @@
-# Kirjoita ratkaisu tähän
 kerrat = int(input("Montako kertaa viikossa syöt Unicafessa? "))
 lounashinta = float(input("Unicafe-lounaan hinta? "))
 vkruokaostokset = float(input("Unicafe-lounaan hinta? "))

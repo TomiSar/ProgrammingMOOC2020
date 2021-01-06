@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 def risunelio(pituus):
     i = 1
     while i <= pituus:

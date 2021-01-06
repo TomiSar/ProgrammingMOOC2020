@@ -1,14 +1,13 @@
-# tee ratkaisu tänne
 def suurin():
-    luvut = []
-
     with open("luvut.txt") as tiedosto:
-        for rivi in tiedosto:
-            luvut.append(rivi)
+        alku = True
+        for luku in tiedosto:
+            if alku or int(luku) > suurin:
+                suurin = int(luku)
+                alku = False
+        return suurin
 
-    luvut.sort(reverse=True)
-    return  int(luvut[0])
-
+#main
 if __name__ == "__main__":
     luku = suurin()
     print(f"{suurin()}")

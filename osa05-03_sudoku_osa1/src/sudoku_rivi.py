@@ -1,13 +1,10 @@
-# tee ratkaisu tänne
 def rivi_oikein(sudoku: list, rivi: int):
-    rivilista = []
-    for i in sudoku[rivi]:
-        if i > 0:
-            rivilista.append(i)
-            for numero in rivilista:
-                if rivilista.count(numero) > 1:
-                    return False
-    return True            
+    luvut = []
+    for luku in sudoku[rivi]:
+        if luku > 0 and luku in luvut:
+            return False
+        luvut.append(luku)
+    return True       
 
 # Tee funktio rivi_oikein(sudoku: list, rivi: int), joka saa parametriksi sudokuruudukkoa esittävän kaksiulotteisen 
 # taulukon ja rivin numeron kertovan kokonaisluvun (rivit on numeroitu nollasta alkaen). Metodi palauttaa tiedon, 
@@ -26,15 +23,3 @@ if __name__ == "__main__":
     print(rivi_oikein(sudoku, 0))
     print(rivi_oikein(sudoku, 1))
     #tulosta(sudoku)
-
-
-
-    # def rivi_oikein(sudoku: list, rivi: int):
-    # rivilista = []
-    # for rivi in range(len(sudoku)):
-    #     for i in sudoku[rivi]:
-    #         if i in rivilista:
-    #             return False
-    #         elif i != 0:
-    #             rivilista.append(i)
-    # return True

@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 def kaikki_vaarinpain(lista):
     kaannettylista = []
     for merkkijono in lista:

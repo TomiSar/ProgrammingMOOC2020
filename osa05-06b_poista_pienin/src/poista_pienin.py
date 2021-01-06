@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 def poista_pienin(luvut):
     luvut.remove(min(luvut))
 

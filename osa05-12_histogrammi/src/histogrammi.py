@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 def histogrammi(merkkijono):
     lista = []
     for merkki in merkkijono:

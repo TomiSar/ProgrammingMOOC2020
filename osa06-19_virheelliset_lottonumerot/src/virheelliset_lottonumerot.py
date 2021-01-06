@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 def suodata_virheelliset():
     with open("lottonumerot.csv") as syote, open("korjatut_numerot.csv", "w") as tulos:
         for rivi in syote:

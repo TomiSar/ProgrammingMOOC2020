@@ -1,4 +1,3 @@
-# Kirjoita ratkaisu tähän
 lampo_f = int(input("Anna lämpötila (F): "))
  
 lampo_c = (lampo_f - 32) * 5/9

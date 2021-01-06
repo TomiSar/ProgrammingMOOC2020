@@ -32,12 +32,12 @@ def main():
     print("lopetetaan...")
 
 main()
+
+# Another possible solution
 # numerot = []
 # luettelo = {}
 # while True:
- 
 #     komento = int(input("komento (1 hae, 2 lisää, 3 lopeta): "))
- 
 #     if komento == 1:
 #         nimi = input("nimi: ")
 #         if nimi in luettelo:

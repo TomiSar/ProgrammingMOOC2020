@@ -1,4 +1,3 @@
-# Kirjoita ratkaisu tähän
 print("Syötä kokonaislukuja, 0 lopettaa:")
 luvut = 0
 summa = 0

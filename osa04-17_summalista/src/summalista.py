@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 def summa(lista1, lista2):
     summalista = []
     for i in range(len(lista1)):

@@ -1,4 +1,3 @@
-# Kirjoita ratkaisu tähän
 lampotila = int(input("Lämpötila: "))
 sade = input("Sataako (kyllä/ei): ")
 print("Pue housut ja t-paita")

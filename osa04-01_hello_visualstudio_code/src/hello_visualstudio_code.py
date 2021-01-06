@@ -1,4 +1,3 @@
-# Kirjoita ratkaisu tähän
 while True:
     editori = input("Editori: ").lower()
     if editori == "visual studio code":
@@ -10,6 +9,7 @@ while True:
 
 print('loistava valinta!')
 
+# Another possible solution 
 # while True:
 #     editori = input("Editori: ").lower()
 #     if editori == "visual studio code":

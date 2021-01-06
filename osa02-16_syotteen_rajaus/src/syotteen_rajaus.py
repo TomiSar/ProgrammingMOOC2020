@@ -1,4 +1,3 @@
-# Kirjoita ratkaisu tähän
 from math import sqrt
 
 while True:

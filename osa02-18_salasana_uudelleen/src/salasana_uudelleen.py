@@ -1,4 +1,3 @@
-# Kirjoita ratkaisu tähän
 salasana = input("Salasana: ")
 
 while True:

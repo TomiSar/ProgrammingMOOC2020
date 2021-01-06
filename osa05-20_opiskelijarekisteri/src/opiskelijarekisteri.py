@@ -1,6 +1,4 @@
-# tee ratkaisu tänne
-#opiskelijat{}, jossa nimi ja kurssi()
- 
+#opiskelijat{}, jossa nimi ja kurssi() 
 def lisaa_opiskelija(opiskelijat: dict, nimi: str):
     opiskelijat[nimi]=[]
  

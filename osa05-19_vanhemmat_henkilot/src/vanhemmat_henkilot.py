@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 def vanhemmat(henkilot: list, vuosi: int):
     vanhimmat = []
     for henkilo in henkilot:

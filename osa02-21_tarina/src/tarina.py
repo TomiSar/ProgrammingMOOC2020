@@ -1,4 +1,3 @@
-# Kirjoita ratkaisu tähän
 tarina = ""
 edellinen = ""
 

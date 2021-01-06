@@ -1,4 +1,3 @@
-
 nimi = "Teppo Testaaja"
 ika = 20
 taito1 = "python"

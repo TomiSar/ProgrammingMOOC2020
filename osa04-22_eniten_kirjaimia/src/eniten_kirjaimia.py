@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 def eniten_kirjainta(mjono):
     yleisin = mjono[0]
     for kirjain in mjono:

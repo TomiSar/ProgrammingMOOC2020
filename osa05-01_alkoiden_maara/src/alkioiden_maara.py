@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 def laske_alkiot(lista, etsitty):
     loydetytalkiot = 0
     for rivi in lista:

@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 def kertomat(luku):
     sanakirja = {}
     alku = 1

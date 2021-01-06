@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 def etsi_elokuvat(rekisteri: list, hakusana: str):
     loydetyt_lista = []
     for elokuva in rekisteri:

@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 def uusi_henkilo(nimi: str, ika: int):
     nimiosat = nimi.split(" ")
     if nimi == " ":

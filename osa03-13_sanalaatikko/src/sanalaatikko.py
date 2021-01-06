@@ -1,4 +1,3 @@
-# Kirjoita ratkaisu tähän
 #Jos sanan pituus on pariton, voit tulostaa sanan kumpaan tahansa mahdollisista keskikohdista.
 sana = input("Sana: ")
 alkuvali = (28 - len(sana)) // 2

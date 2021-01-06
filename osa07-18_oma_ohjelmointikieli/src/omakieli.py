@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 def arvo(x, data):
     merkit = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     if x in merkit:

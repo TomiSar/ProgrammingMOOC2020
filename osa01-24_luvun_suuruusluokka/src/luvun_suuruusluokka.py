@@ -1,4 +1,3 @@
-# Kirjoita ratkaisu tähän
 luku = int(input("Anna luku:"))
 if luku < 1000:
     print("Luku on pienempi kuin 1000")

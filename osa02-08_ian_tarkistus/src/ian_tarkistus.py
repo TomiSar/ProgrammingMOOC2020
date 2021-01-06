@@ -1,4 +1,3 @@
-# Kirjoita ratkaisu tähän
 ika = int(input("Kerro ikäsi? "))
 if ika < 0:
     print("Taitaa olla virhe")

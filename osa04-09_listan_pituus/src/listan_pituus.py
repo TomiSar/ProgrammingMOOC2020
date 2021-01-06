@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 def pituus(lista):
     return len(lista)
     

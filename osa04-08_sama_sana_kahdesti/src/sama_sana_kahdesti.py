@@ -1,4 +1,3 @@
-# Kirjoita ratkaisu tähän
 sanat = []
 while True:
     sana = input("sana: ")

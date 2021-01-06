@@ -1,4 +1,3 @@
-# Kirjoita ratkaisu tähän
 nimi = input("Anna nimesi: ")
 if nimi == "Tupu" or nimi == "Hupu" or nimi == "Lupu":
     print("Olet luultavasti Aku Ankan veljenpoika.")

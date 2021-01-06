@@ -1,4 +1,3 @@
-# Tee ratkaisu tänne
 def anagrammi(mjono1, mjono2):
     return sorted(mjono1) == sorted(mjono2)
 

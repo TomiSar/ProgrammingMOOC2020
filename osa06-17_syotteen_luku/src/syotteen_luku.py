@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 def lue(syote, min: int, max: int):
     while True:
         try:
@@ -11,7 +10,7 @@ def lue(syote, min: int, max: int):
         except ValueError:
             print("Syötteen on oltava kokonaisluku väliltä 5...10")
 
-
-# if __name__ == "__main__":
-#     luku = lue("syötä luku: ", 5, 10)
-#     print("syötit luvun:", luku)
+#main
+if __name__ == "__main__":
+    luku = lue("syötä luku: ", 5, 10)
+    print("syötit luvun:", luku)

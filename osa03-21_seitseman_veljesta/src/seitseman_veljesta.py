@@ -1,4 +1,3 @@
-# Kirjoita ratkaisu tähän
 def seitseman_veljesta():
     print("Aapo")
     print("Eero")

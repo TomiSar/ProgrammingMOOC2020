@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 def tee_tuple(x: int, y: int, z: int):
     lista = []
     lista.append(x)
@@ -13,7 +12,6 @@ def tee_tuple(x: int, y: int, z: int):
 
 if __name__ == "__main__":
     print(tee_tuple(5, 3, -1))
-
     #(-1, 5, 7)
     # Tuplen ensimmäinen alkio on parametreista pienin
     # Tuplen toinen alkio on parametreista suurin

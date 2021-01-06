@@ -1,4 +1,3 @@
-# Kirjoita ratkaisu tähän
 tuntipalkka = float(input("Tuntipalkka: "))
 tunnit = int(input("Työtunnit: "))
 paiva = input("Viikonpäivä :")

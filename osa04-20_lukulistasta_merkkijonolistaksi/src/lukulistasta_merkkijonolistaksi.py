@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 def muotoile(lista):
     muokattu_lista = []
     for luku in lista:

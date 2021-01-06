@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 def luvuista_suurin(luku1, luku2, luku3):
     if luku2 < luku1 > luku3:
         return luku1

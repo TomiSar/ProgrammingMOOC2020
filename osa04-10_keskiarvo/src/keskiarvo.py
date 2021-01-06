@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 def keskiarvo(lista):
     return sum(lista) / len(lista)
 

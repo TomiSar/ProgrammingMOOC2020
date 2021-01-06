@@ -1,4 +1,3 @@
-# Kirjoita ratkaisu tähän
 print("Henkilö 1:")
 nimi1 = input("Nimi: ")
 ika1 = int(input("Ikä 1: "))

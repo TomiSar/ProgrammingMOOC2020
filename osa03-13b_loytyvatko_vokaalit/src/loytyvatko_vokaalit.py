@@ -1,4 +1,3 @@
-# Kirjoita ratkaisu tähän
 merkkijono = input("Anna merkkijono: ")
 if "a" in merkkijono:
     print("a löytyy")

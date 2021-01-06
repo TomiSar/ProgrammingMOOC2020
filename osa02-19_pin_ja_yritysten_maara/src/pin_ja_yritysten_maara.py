@@ -1,4 +1,3 @@
-# Kirjoita ratkaisu tähän
 yritykset = 1
 
 while True:

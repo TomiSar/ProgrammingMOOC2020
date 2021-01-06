@@ -1,4 +1,3 @@
-# Kirjoita ratkaisu tähän
 n = int(input("Kerrokset: "))
 aakkoset = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
  

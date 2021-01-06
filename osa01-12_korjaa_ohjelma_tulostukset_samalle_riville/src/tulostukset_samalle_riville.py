@@ -1,4 +1,3 @@
-# Korjaa ohjelma
 print(5, end="")
 print(" + ", end="")
 print(8, end="")

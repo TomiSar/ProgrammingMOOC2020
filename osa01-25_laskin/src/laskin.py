@@ -1,4 +1,3 @@
-# Kirjoita ratkaisu tähän
 luku1 = int(input("Luku1: "))
 luku2 = int(input("Luku2: "))
 

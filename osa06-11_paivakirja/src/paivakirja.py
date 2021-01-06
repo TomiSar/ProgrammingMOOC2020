@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 while True:
     
     print("1 - lisää merkintä, 2 - lue merkinnät, 0 - lopeta")

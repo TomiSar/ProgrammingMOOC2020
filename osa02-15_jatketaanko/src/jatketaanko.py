@@ -1,4 +1,3 @@
-# Kirjoita ratkaisu tähän
 while True:
     print("moi")
     vastaus = input("Jatketaanko? ")

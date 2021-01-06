@@ -1,14 +1,13 @@
-# tee ratkaisu tänne
 def sarake_oikein(sudoku: list, sarake: int):
     luvut = []
     for rivi in sudoku:
         luku = rivi[sarake]
         if luku > 0 and luku in luvut:
             return False
-        luvut.append(luku)
+        luvut.append(luku) 
     return True
 
-
+#main
 if __name__ == "__main__":
     sudoku = [
     [9, 0, 0, 0, 8, 0, 3, 0, 0],

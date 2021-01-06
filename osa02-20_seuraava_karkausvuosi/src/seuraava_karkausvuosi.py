@@ -1,4 +1,3 @@
-# Kirjoita ratkaisu tähän
 aloitusvuosi = int(input("Vuosi: "))
 vuosi = aloitusvuosi + 1
 

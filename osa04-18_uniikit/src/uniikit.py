@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 def uniikit(lista):
     uniikit = []
     for alkio in lista:

@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 def joulukuusi(korkeus):
     print('joulukuusi!')
     tahdet = "*"

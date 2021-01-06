@@ -1,4 +1,3 @@
-# Kirjoita ratkaisu tähän
 luku = int(input("Anna luku: "))
 kohta = 1
 

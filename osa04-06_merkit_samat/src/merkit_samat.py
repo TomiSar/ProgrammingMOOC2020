@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 def samat(merkkijono, indeksi1, indeksi2):
     if indeksi1 >= len(merkkijono) or indeksi2 >= len(merkkijono):
         return False

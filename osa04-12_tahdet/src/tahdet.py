@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 def lista_tahtina(lista):
     for alkio in lista:
         print(alkio * "*")

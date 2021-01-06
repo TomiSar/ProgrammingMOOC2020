@@ -1,8 +1,6 @@
-# tee ratkaisu tänne
 while True:
     print("1 - lisää sana, 2 - hae sana, 3 - poistu")
-    #1: tallenna tiedostoon muodossa sana1 - sana2 
-    #2: hae tiedostosta for rivi, if sana in rivi, print rivi
+    #1: tallenna tiedostoon muodossa FINSana - ENGSana, 2: hae tiedostosta for rivi, if sana in rivi, print rivi
     valinta = int(input("Valinta: "))
  
     if valinta == 1:

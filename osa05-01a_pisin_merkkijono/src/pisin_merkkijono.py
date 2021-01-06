@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 def pisin(lista):
     pisinmj = lista[0]
     for merkkijono in lista:

@@ -1,7 +1,6 @@
-# Kirjoita ratkaisu tähän
-#veromaara = VeroAlaraja + (suuruus - LahjaArvoMinRajalla) * VeroprosenttiYlimenevä
 suuruus = int(input("Lahjan suuruus? "))
 
+#veromaara = VeroAlaraja + (suuruus - LahjaArvoMinRajalla) * VeroprosenttiYlimenevä
 if (suuruus < 5000):
     veromaara = 0
 elif (suuruus <= 25000):

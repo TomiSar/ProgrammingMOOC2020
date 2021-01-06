@@ -1,4 +1,3 @@
-# Kirjoita ratkaisu tähän
 luku = int(input("Anna luku: "))
 vasen = 1
 oikea = luku

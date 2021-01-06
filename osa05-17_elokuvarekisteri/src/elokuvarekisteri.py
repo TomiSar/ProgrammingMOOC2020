@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 #Rekisteri on toteutettu listana, ja jokainen listan alkio on yksi sanakirja. Sanakirjassa on seuraavat avaimet:
 def lisaa_elokuva(rekisteri: list, nimi: str, ohjaaja: str, vuosi: int, pituus: int):
     elokuva = {"nimi": nimi, "ohjaaja": ohjaaja, "vuosi": vuosi, "pituus": pituus}

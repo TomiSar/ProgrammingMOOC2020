@@ -1,4 +1,3 @@
-# Tee Ratkaisu tänne
 def vanhin(henkilot: list):
     vanhin = []
     for i in henkilot:

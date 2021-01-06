@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 def parilliset(lista):
     parilliset = []
     for alkio in lista:

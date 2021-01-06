@@ -1,5 +1,5 @@
-# tee ratkaisu tänne
 import json
+
 def tulosta_henkilot(tiedosto:str):
     with open (tiedosto) as tiedosto:
         data = tiedosto.read()
@@ -14,6 +14,6 @@ def tulosta_henkilot(tiedosto:str):
         
         print(f'{opiskelija["nimi"]} {opiskelija["ika"]} vuotta ({yhd})')
 
-
+#main
 if __name__ == "__main__":
     tulosta_henkilot("tiedosto1.json")

@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 # Opiskelijatiedot: opiskelijat1.csv
 # Tehtävätiedot: tehtavat1.csv
 # Koepisteet: koepisteet1.csv
@@ -52,5 +51,3 @@ with open(koetiedot) as tiedosto:
 for nro, nimi in opiskelijat.items():
     yht = kokeet[nro] + pisteiksi(tehtavat[nro])
     print(f"{nimi} {arvosana(yht)}")
- 
-# tee ratkaisu tänne

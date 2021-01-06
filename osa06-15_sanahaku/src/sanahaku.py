@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 def hae_sanat(hakusana: str):
     tulokset = []
 
@@ -34,5 +33,6 @@ def hae_sanat(hakusana: str):
                     tulokset.append(sana)
     return tulokset
 
+#main
 if __name__ == "__main__" :
     print(hae_sanat("*vokes"))

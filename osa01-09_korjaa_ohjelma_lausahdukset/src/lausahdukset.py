@@ -1,4 +1,3 @@
-# Korjaa ohjelma
 osa1 = input("Anna 1. osa: ")
 osa2 = input("Anna 2. osa: ")
 osa3 = input("Anna 2. osa: ")

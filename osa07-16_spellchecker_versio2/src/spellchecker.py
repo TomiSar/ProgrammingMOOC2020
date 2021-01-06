@@ -1,4 +1,3 @@
-# tee ratkaisu tänne
 import difflib
 
 def wordlist():
