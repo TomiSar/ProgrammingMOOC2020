@@ -1,4 +1,3 @@
-# TEE RATKAISUSI TÄHÄN:
 class Tyontekija:
     def __init__(self, nimi: str):
         self.nimi = nimi
@@ -17,7 +16,7 @@ def laske_alaiset(tyontekija: Tyontekija):
         summa += laske_alaiset(alainen) + 1
     return summa
 
-#main
+# main
 if __name__ == "__main__":
     t1 = Tyontekija("Sasu")
     t2 = Tyontekija("Erkki")

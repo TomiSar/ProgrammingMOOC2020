@@ -1,4 +1,3 @@
-# Tee ratkaisusi tähän:
 class Maksukortti:
     def __init__(self, alkusaldo):
         self.saldo = alkusaldo

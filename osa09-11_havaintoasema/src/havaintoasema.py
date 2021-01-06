@@ -1,4 +1,3 @@
-# TEE RATKAISUSI TÄHÄN:
 # Luokan kaikkien attribuuttien pitää olla asiakkaalta piilossa. Saat itse päättää luokan sisäisen toteutuksen.
 # Havaintoasema, johon voidaan tallentaa säähavaintoja nimi (str), havainnot (int) ja viimeisin havainto (str)
 class Havaintoasema:

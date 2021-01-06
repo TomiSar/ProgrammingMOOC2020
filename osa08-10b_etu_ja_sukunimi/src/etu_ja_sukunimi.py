@@ -1,4 +1,3 @@
-# Tee ratkaisusi tähän:
 class Henkilo:
     def __init__(self, nimi: str):
         self.nimi = nimi
@@ -11,7 +10,7 @@ class Henkilo:
         nimet = self.nimi.split(" ")
         return nimet[1]
     
-#main
+# main
 if __name__ == "__main__":
     pekka = Henkilo("Pekka Python")
     print(pekka.anna_etunimi())

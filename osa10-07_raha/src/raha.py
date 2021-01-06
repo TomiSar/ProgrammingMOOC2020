@@ -1,4 +1,3 @@
-# TEE RATKAISUSI TÄHÄN:
 class Raha:
     def __init__(self, eurot: int, sentit: int):
         self.__eurot = eurot
@@ -51,7 +50,7 @@ class Raha:
         erotusraha.__aseta_arvo(self.__arvo() - toinen.__arvo())
         return erotusraha 
 
-#main
+# main
 if __name__ == "__main__":
     # print(e1)
     # e1.eurot = 1000

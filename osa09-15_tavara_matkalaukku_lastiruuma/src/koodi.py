@@ -1,4 +1,3 @@
-# Tee ratkaisusi tähän:
 # Tavara, josta muodostetut oliot vastaavat erilaisia tavaroita. Tallennettavat tiedot ovat tavaran nimi ja paino (kg).
 class Tavara:
     def __init__(self, nimi: str, paino: int):

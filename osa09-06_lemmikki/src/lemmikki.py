@@ -1,4 +1,3 @@
-# TEE RATKAISUSI TÄHÄN:
 class Lemmikki:
     def __init__(self, nimi: str, kuvaus: str):
         self.nimi = nimi

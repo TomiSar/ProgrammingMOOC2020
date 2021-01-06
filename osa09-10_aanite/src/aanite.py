@@ -1,4 +1,3 @@
-# TEE RATKAISUSI TÄHÄN:
 # Huomaa, että havainnointimetodi eli @property-dekoraattori pitää esitellä luokassa ennen asetusmetodia, 
 # muuten seuraa virhe. Tämä johtuu siitä, että @property-dekoraattori määrittelee käytettävän 
 # "asetusattribuutin" nimen (edellisessä esimerkiksi rahaa), ja asetusmetodi .setter liittää siihen uuden toiminnallisuuden.

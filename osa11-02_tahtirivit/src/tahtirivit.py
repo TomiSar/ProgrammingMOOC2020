@@ -1,4 +1,3 @@
-# TEE RATKAISUSI TÄHÄN:
 # Tee funktio tahtirivit(luvut: list), joka saa parametriksi listan kokonaislukuja. Funktio palauttaa listan, 
 # joka koostuu tähtiriveistä, joiden pituus vastaa parametrina olevan listan lukuja.
 def tahtirivit(luvut: list):

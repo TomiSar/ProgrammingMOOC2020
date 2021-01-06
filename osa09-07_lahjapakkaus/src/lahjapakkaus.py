@@ -1,4 +1,3 @@
-# TEE RATKAISUSI TÄHÄN:
 class Lahja:
     def __init__(self, nimi: str, paino: int):
         self.nimi = nimi

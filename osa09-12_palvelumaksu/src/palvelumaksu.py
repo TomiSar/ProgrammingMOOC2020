@@ -1,4 +1,3 @@
-# TEE RATKAISUSI TÄHÄN:
 # Kirjoita luokka Pankkitili, joka mallintaa pankkitiliä. Luokalla tulee olla
 # konstruktori, joka saa parametrikseen tilinomistajan (str), tilinumeron (str) ja saldon (float)
 class Pankkitili:
@@ -28,7 +27,7 @@ class Pankkitili:
     def saldo(self):
         return self.__saldo
 
-#main
+# main
 if __name__ == "__main__":
     tili = Pankkitili("Raimo Rahakas", "123456-789", 1000)
     print("Alussa tilillä rahaa:",tili.saldo)               #Alussa tilillä rahaa: 1000

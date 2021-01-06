@@ -1,4 +1,3 @@
-# TEE RATKAISUSI TÄHÄN:
 # Tee funktio yleisimmat_sanat(tiedoston_nimi: str, raja: int), joka saa parametrikseen tiedoston nimen. 
 # Funktio palauttaa sanakirjan, joka sisältää tiedostossa olevien sanojen esiintymislukumäärän niiden sanojen osalta, 
 # joilla on vähintään toisen parametrin raja verran esiintymiä.

@@ -1,6 +1,4 @@
-
-# TEE RATKAISUSI TÄHÄN:
-# Huom! Älä muuta luokkaa Henkilo!
+# Älä muuta luokkaa Henkilo!
 class Henkilo:
     def __init__(self, nimi: str, ika: int, pituus: int, paino: int):
         self.nimi = nimi
@@ -25,7 +23,7 @@ class Kasvatuslaitos:
     def punnitukset(self):
         return self.punnitusten_lkm
 
-#main
+# main
 if __name__ == "__main__":    
     haagan_neuvola = Kasvatuslaitos()
     eero = Henkilo("Eero", 1, 110, 7)

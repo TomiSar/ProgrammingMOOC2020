@@ -1,4 +1,3 @@
-# Tee ratkaisusi tähän:
 class VahenevaLaskuri:
     def __init__(self, arvo_alussa: int):
         self.arvo = arvo_alussa
@@ -17,7 +16,7 @@ class VahenevaLaskuri:
     def palauta_alkuperainen_arvo(self):
         self.arvo = self.alkuperainen_arvo
 
-#main
+# main
 if __name__ == "__main__":
 
     laskuri = VahenevaLaskuri(55)

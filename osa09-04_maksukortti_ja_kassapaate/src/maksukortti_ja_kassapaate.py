@@ -1,5 +1,3 @@
-# TEE RATKAISUSI TÄHÄN:
-
 class Maksukortti:
     def __init__(self, saldo: float):
         self.saldo = saldo

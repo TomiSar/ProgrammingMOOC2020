@@ -1,4 +1,3 @@
-# Tee ratkaisusi tähän:
 # Sovelluslogiikka: Luokka pitää siis sisällään listan henkilöitä ja tarjoaa metodit tietojen lisäämiseen ja hakemiseen.
 # Jokaiseen henkilöön voi liittyä useita numeroita, joten toteutetaan luettelon sisäinen tila sanakirjan avulla, 
 # koska sanakirjasta on helppo hakea nimen perusteella. Sanakirjaan on helppo tallettaa suoraan myös nimeen liittyvät numerot, 

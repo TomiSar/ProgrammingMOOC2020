@@ -1,4 +1,3 @@
-# TEE RATKAISUSI TÄHÄN:
 class Taikajuoma:
     def __init__(self, nimi: str):
         self._nimi = nimi
@@ -36,7 +35,7 @@ class SalainenTaikajuoma(Taikajuoma):
         else:
             raise ValueError("Väärä salasana!")
 
-#main
+# main
 if __name__ == "__main__":
     kutistus = SalainenTaikajuoma("Kutistus maksimus", "hokkuspokkus")
     kutistus.lisaa_aines("Kärpässieni", 1.5, "hokkuspokkus")

@@ -1,4 +1,3 @@
-# Tee ratkaisusi tähän:
 # Toteuta luokka Tehtava, joka mallintaa ohjelmistoyritykselle annettavia työtehtäviä. Tehtävillä on
 # kuvaus, arvio sen viemästä työmäärästä, tieto koodarista, joka toteuttaa tehtävän, tieto siitä, onko tehtävä valmis vai ei, yksikäsitteinen tunniste eli id
 class Tehtava:

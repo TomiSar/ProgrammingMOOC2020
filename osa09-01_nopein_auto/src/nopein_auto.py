@@ -1,5 +1,4 @@
-# Tee ratkaisusi luokan Auto perään
-# Älä muuta luokkaa!
+# Älä muuta luokkaa Auto!
 class Auto:
     def __init__(self, merkki: str, huippunopeus: int):
         self.merkki = merkki
@@ -20,7 +19,7 @@ def nopein_auto(autot: list):
             nopein_merkki = auto.merkki
     return nopein_merkki
 
-#main
+# main
 if __name__ == "__main__":
     auto1 = Auto("Mersu", 195)
     auto2 = Auto("Ferrari", 280)

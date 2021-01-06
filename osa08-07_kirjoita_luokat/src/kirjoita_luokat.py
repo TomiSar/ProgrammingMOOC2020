@@ -1,4 +1,3 @@
-# Tee ratkaisusi tähän:
 class Muistilista:
     def __init__(self, otsikko: str, merkinnat: list):
         self.otsikko = otsikko

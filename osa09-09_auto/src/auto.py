@@ -1,4 +1,3 @@
-# TEE RATKAISUSI TÄHÄN:
 # Toteuta luokka Auto, jossa on kapseloituina attribuutteina tieto bensatankin sisällöstä
 # (0-60 litraa) ja ajetuista kilometreista.
 # Attribuutti bensaa ja ajettu ovat piilotetut bensan ja ajettujen kilometrien määrä on kapseloitava, 
@@ -24,7 +23,7 @@ class Auto:
         return f"Auto: ajettu {self.__ajettu} km, bensaa {self.__bensaa} litraa"
 
 
-#main
+# main
 if __name__ == "__main__":
     auto = Auto()
     print(auto)     #Auto: ajettu 0 km, bensaa 0 litraa

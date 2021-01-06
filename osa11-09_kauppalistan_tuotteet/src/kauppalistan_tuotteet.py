@@ -1,4 +1,3 @@
-# TEE RATKAISUSI TÄHÄN:
 class Kauppalista:
     def __init__(self):
         self.tuotteet = []
@@ -26,7 +25,7 @@ class Kauppalista:
 def kauppalistan_tuotteet(kauppalista, maara: int):
     return [tuote[0] for tuote in kauppalista if tuote[1] >= maara]
 
-#main
+# main
 if __name__ == "__main__":
     lista = Kauppalista()
     lista.lisaa("banaanit", 10)

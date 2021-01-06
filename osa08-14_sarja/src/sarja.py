@@ -1,4 +1,3 @@
-# Tee ratkaisusi tähän:
 class Sarja:
     def __init__(self, nimi: str, kaudet: int, genret: list):
         self.nimi = nimi

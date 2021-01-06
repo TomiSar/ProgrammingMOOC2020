@@ -1,4 +1,3 @@
-# tee ratkaisusi tänne
 # Tee interaktiivinen ohjelma, jonka avulla voit pitää kirjaa opintomenestyksestäsi. Sovelluksen rakenteen saat 
 # päättää itse, mutta nyt on hyvä tilaisuus harjoitella Puhelinluettelo-esimerkin kaltaisen oliorakenteen muodostamista.
 class Kurssi:
@@ -100,5 +99,5 @@ class Sovellus:
             elif komento=="3":
                 self.tilasto()
 
-#Ohjelma
+# Ohjelma
 Sovellus().suorita()

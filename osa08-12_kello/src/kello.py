@@ -1,4 +1,3 @@
-# Tee ratkaisusi tähän:
 class Kello:
     def __init__(self, tunnit: int, minuutit: int, sekunnit: int):
         self.tunnit = tunnit
@@ -24,7 +23,7 @@ class Kello:
     def __str__(self):
         return f"{self.tunnit:02}:{self.minuutit:02}:{self.sekunnit:02}"
 
-#main
+# main
 if __name__ == "__main__":
     kello = Kello(23, 59, 55)
     print(kello)

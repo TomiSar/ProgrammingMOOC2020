@@ -1,4 +1,3 @@
-# TEE RATKAISUSI TÄHÄN:
 # Tee funktio pituudet(merkkijonot: list), joka saa parametriksi listan merkkijonoja. Funktio palauttaa sanakirjan, 
 # jossa avaimina on listan merkkijonot ja arvoina merkkijonojen pituudet.
 # Funktio tulee toteuttaa sanakirjakoosteen avulla. Funktion maksimipituus def-määrittelyrivi mukaanlukien on kaksi riviä.

@@ -1,4 +1,3 @@
-# tee ratkaisusi tänne
 # jos käytät edellisessä tehtävässä tekemiäsi luokkia, kopioi ne tänne
 class Tehtava:
     id = 0
@@ -144,5 +143,5 @@ komennot:
             elif komento == "6":
                 self.koodarin_tilastot()
 
-#main
+# Execute program
 Sovellus().suorita()

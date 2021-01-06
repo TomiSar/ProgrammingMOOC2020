@@ -1,5 +1,5 @@
-# Muista import-lause:
 from datetime import date
+
 #lisätään vuodet listaan ja järjestetään lista pienimmästä suurimpaan 
 def vuodet_listaan(paivamaarat: list):
     vuodet = []
@@ -8,7 +8,7 @@ def vuodet_listaan(paivamaarat: list):
     vuodet.sort()
     return vuodet
 
-#main
+# main
 if __name__ == "__main__":
     paiva1 = date(2019, 2, 3)
     paiva2 = date(2006, 10, 10)

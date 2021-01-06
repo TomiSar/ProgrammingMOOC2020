@@ -1,10 +1,9 @@
-# Tee ratkaisusi tähän:
 class Sekuntikello:
     def __init__(self):
         self.sekunnit = 0
         self.minuutit = 0
 
-    #Metodi tick vie siis kelloa sekunnin eteenpäin, ja sekä sekuntien että minuuttien arvo on 
+    # Metodi tick siirtää kelloa sekunnin eteenpäin, ja sekä sekuntien että minuuttien arvo on 
     # suuruudeltaan korkeintaan 59. Lisäksi oliossa tulee olla metodi __str__, joka näyttää kellonajan yllä olevassa muodossa.
     def tick(self):
         self.sekunnit += 1
@@ -18,7 +17,7 @@ class Sekuntikello:
         return f"{self.minuutit:02}:{self.sekunnit:02}"
 
 
-#main
+# main
 if __name__ == "__main__":
     kello = Sekuntikello()
     for i in range(3600):

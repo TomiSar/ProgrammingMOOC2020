@@ -1,4 +1,3 @@
-# TEE RATKAISUSI TÄHÄN:
 class Suorakulmio:
     def __init__(self, leveys: int, korkeus: int):
         self.leveys = leveys
@@ -30,7 +29,7 @@ class SuorakulmainenKolmio(Suorakulmio):
     def pinta_ala(self):
         return super().pinta_ala() / 2
 
-#main
+# main
 if __name__ == "__main__":
     kolmio = SuorakulmainenKolmio(3, 4)
     print(kolmio)

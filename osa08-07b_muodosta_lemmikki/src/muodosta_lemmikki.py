@@ -1,4 +1,3 @@
-# Tee ratkaisusi tähän:
 class Lemmikki:
     def __init__(self, nimi: str, laji: str, syntymavuosi: int):
         self.nimi = nimi
@@ -11,7 +10,7 @@ def uusi_lemmikki(nimi: str, laji: str, syntymavuosi: int):
     lemmikki = Lemmikki(nimi, laji, syntymavuosi)
     return lemmikki
 
-#main
+# main
 if __name__ == "__main__":
     musti = uusi_lemmikki("Musti", "koira", 2017)
     print(musti.nimi)

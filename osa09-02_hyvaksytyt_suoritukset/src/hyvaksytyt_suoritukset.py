@@ -1,5 +1,4 @@
-# Tee ratkaisusi luokan Koesuoritus perään.
-# ÄLÄ MUUTA LUOKKAA
+# ÄLÄ MUUTA LUOKKAA Koesuoritus
 class Koesuoritus:
     def __init__(self, suorittaja: str, pisteet: int):
         self.suorittaja = suorittaja
@@ -20,7 +19,7 @@ def hyvaksytyt(suoritukset: list, pisteraja: int):
     return hyvaksytyt_suoritukset
 
 
-#main
+# main
 if __name__ == "__main__":
     s1 = Koesuoritus("Pekka", 12)
     s2 = Koesuoritus("Pirjo", 19)

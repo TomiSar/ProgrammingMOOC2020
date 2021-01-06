@@ -1,4 +1,3 @@
-# TEE RATKAISUSI TÄHÄN:
 # Kirjoita luokka Lottorivi, joka saa konstruktorissaan parametrikseen kierroksen numeron (kokonaisluku) 
 # sekä seitsemänalkioisen kokonaislukulistan. Lista kuvaa kierroksen oikeita numeroita (eli oikeaa riviä). Kirjoita lisäksi luokalle metodi
 class Lottorivi:
@@ -14,7 +13,7 @@ class Lottorivi:
     def osumat_paikoillaan(self, pelattu_rivi: list):
         return [numero if numero in self.__oikeat else -1 for numero in pelattu_rivi]
 
-#main
+# main
 if __name__ == "__main__":
     oikea = Lottorivi(8, [1,2,3,10,20,30,33])
     oma_rivi = [1,4,7,10,11,20,30]

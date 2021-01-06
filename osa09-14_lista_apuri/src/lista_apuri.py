@@ -31,7 +31,7 @@ class ListaApuri:
         return tuplat
 
 
-#main
+# main
 if __name__ == "__main__":
     luvut = [1, 1, 2, 1, 3, 3, 4, 5, 5, 5, 6, 5, 5, 5]
     print("Taulukon suurin frekvessi:",ListaApuri.suurin_frekvenssi(luvut)) #Taulukon suurin frekvessi: 5

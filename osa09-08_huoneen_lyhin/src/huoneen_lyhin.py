@@ -1,4 +1,3 @@
-# TEE RATKAISUSI TÄHÄN:
 class Henkilo:
     def __init__(self, nimi: str, pituus: int):
         self.nimi = nimi

@@ -21,15 +21,14 @@ class Asunto:
         return (f'Asunto(huoneita = {self.huoneita}, nelioita = {self.nelioita}, ' + 
             f'neliohinta = {self.neliohinta}, kuvaus = {self.kuvaus})')
 
-# TEE RATKAISUSI TÄHÄN:
-# Tee funktio halvemmat(asunnot: list, verrattava: Asunto), joka saa parametriksi listan asuntoja sekä yksittäisen 
+# Funktio saa parametriksi listan asuntoja sekä yksittäisen 
 # vertailtavan asunnon. Funktio palauttaa listan, jolla on asunnoista ne, jotka ovat hinnaltaan halvempia kuin 
 # vertailtava asunto, sekä näiden hintaeron. Palautettavan listan alkiot ovat tupleja, 
 # joiden ensimmäinen jäsen on asunto ja toisena sen hintaero vertailtavaan.
 def halvemmat(asunnot: list, verrattava: Asunto):
     return [(asunto, asunto.hintaero(verrattava)) for asunto in asunnot if verrattava.kalliimpi(asunto)]
 
-#main
+# main
 if __name__ == "__main__":
     a1 = Asunto(1, 16, 5500, "Eira yksiö")
     a2 = Asunto(2, 38, 4200, "Kallio yksiö")

@@ -26,7 +26,7 @@ def sulut_tasapainossa(merkkijono: str):
     return False
     # poistetaan ensimmäinen ja viimeinen merkki
 
-#main
+# main
 if __name__ == "__main__":
     ok = sulut_tasapainossa("([([])])")
     print(ok)

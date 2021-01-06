@@ -1,10 +1,9 @@
-# TEE RATKAISUSI TÄHÄN:
 # Kirjoita funktio poista_pienemmat(luvut: list, raja: int), joka saa parametrikseen 
 # listan kokonaislukuja sekä raja-arvon, joka on myös kokonaisluku.
 def poista_pienemmat(luvut: list, raja: int):
     return [luku for luku in luvut if luku >= raja]
 
-#main
+# main
 if __name__ == "__main__":    
     lukuja = [1,65, 32, -6, 9, 11]
     print(poista_pienemmat(lukuja, 10))

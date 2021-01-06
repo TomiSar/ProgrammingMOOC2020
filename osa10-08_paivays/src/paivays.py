@@ -1,4 +1,3 @@
-# TEE RATKAISUSI TÄHÄN:
 # Tässä tehtävässä toteutetaan luokka Paivays, jonka avulla on mahdollista käsitellä päivämääriä. 
 # Oletetaan tässä tehtävässä yksinkertaisuuden vuoksi, että jokaisessa kuussa on 30 päivää.
 # Edellisestä johtuen tehtävässä ei poikkeuksellisesti kannata käyttää Pythonin datetime-moduulia.
@@ -54,7 +53,7 @@ class Paivays:
     def __str__(self):
         return f'{self.__paiva}.{self.__kuukausi}.{self.__vuosi}'
     
-#main
+# main
 if __name__ == "__main__":
     p1 = Paivays(4, 10, 2020)
     p2 = Paivays(2, 11, 2020)

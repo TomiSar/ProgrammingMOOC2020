@@ -1,4 +1,3 @@
-# TEE RATKAISUSI TÄHÄN:
 class SuperSankari:
     def __init__(self, nimi: str, supervoimat: str):
         self.nimi = nimi
@@ -37,7 +36,7 @@ class SuperRyhma(SuperSankari):
         for jasen in self._jasenet:
             print(jasen)
 
-#main
+# main
 if __name__ == "__main__":
     supermiekkonen = SuperSankari("Supermiekkonen", "Supernopeus, supervoimakkuus")
     nakymaton = SuperSankari("Näkymätön Makkonen", "Näkymättömyys")

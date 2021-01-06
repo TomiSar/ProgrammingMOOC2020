@@ -1,4 +1,3 @@
-# TEE RATKAISUSI TÄHÄN:
 # Tehtäväpohjassa on määritelty luokat Tietokonepeli ja Pelivarasto. Pelivarastoon voidaan säilöä tietokonepelejä.
 class Tietokonepeli:
     def __init__(self, nimi: str, julkaisija: str, vuosi: int):
@@ -31,7 +30,7 @@ class Pelimuseo(Pelivarasto):
                 pelilista.append(peli)
         return pelilista
     
-#main
+# main
 if __name__ == "__main__":
     museo = Pelimuseo()
     museo.lisaa_peli(Tietokonepeli("Pacman", "Namco", 1980))

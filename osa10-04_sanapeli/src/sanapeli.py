@@ -1,4 +1,3 @@
-# TEE RATKAISUSI TÄHÄN:
 import random
 
 class Sanapeli():
@@ -103,11 +102,10 @@ class KiviPaperiSakset(Sanapeli):
             return 1
         return 2
 
-#main
+# main
 if __name__ == "__main__":
     p = KiviPaperiSakset(3)
     p.pelaa()
-
     # p = EnitenVokaaleja(3)
     # p.pelaa()
     # p = PisinSana(3)

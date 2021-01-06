@@ -1,4 +1,3 @@
-# TEE RATKAISUSI TÄHÄN:
 class Alkio:
     """ Luokka mallintaa yhtä alkiota binääripuussa """
     def __init__(self, arvo, vasen_lapsi:'Alkio' = None, oikea_lapsi:'Alkio' = None):
@@ -24,7 +23,7 @@ def suurin_alkio(juuri: Alkio):
     
     return max(arvo, vasen_arvo, oikea_arvo)
 
-#main
+# main
 if __name__ == "__main__":
     puu = Alkio(2)
     puu.vasen_lapsi = Alkio(3)

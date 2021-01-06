@@ -1,4 +1,3 @@
-# TEE RATKAISUSI TÄHÄN:
 class Tietokone:
     def __init__(self, malli: str, nopeus: int):
         self.__malli = malli
@@ -23,7 +22,7 @@ class KannettavaTietokone(Tietokone):
         return f"{self.malli}, {self.nopeus} MHz, {self.__paino} kg"
 
 
-#main
+# main
 if __name__ == "__main__":
     ipm = KannettavaTietokone("IPM MikroMauri", 1500, 2)
     print(ipm)
